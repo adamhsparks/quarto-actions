@@ -50,7 +50,7 @@ When using `quarto-dev/quarto-actions/publish`, configure it to use `gh-pages` a
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
 ```
 
-If you not using [quarto-publish-example.yml](../examples/quarto-publish-example.yml), check the minimum required access for the `publish` action: You need to set `contents` permissions to `write`.
+If you are not using [quarto-publish-example.yml](../examples/quarto-publish-example.yml), check the minimum required access for the `publish` action: You need to set `contents` permissions to `write`.
 
 ```yaml
 permissions:
